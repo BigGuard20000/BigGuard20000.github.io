@@ -1,0 +1,108 @@
+.bloodedicon{
+  height: 80px;
+}
+
+body{
+  background-color: black;
+}
+
+.header-title{
+  font-family: Roboto Slab;
+  font-size: 24px;
+  color: white;
+}
+
+.reaping-button{
+  color: white;
+  font-family: Roboto Slab;
+  border-color: white;
+  background-color: black;
+  height: 70px;
+  width: 200px;
+  font-size: 24px;
+  transition: 0.1s background-color, color;
+  border-radius: 5px;
+  position: relative;
+  top: 150px;
+  left: 4px;
+  
+}
+
+.reaping-button:hover{
+background-color: white;
+color: black;
+cursor: pointer;
+}
+
+.reaping-button:active{
+  background-color: rgb(136, 136, 136);
+  
+}
+
+.events-button{
+  color: white;
+  font-family: Roboto Slab;
+  border-color: white;
+  background-color: black;
+  height: 70px;
+  width: 200px;
+  font-size: 24px;
+  transition: 0.1s background-color, color;
+  border-radius: 5px;
+  position: relative;
+  top: 300px;
+  left: -200px;
+}
+
+.events-button:hover{
+background-color: white;
+color: black;
+cursor: pointer;
+}
+
+.events-button:active{
+  background-color: rgb(136, 136, 136);
+}
+
+.save-button{
+  color: white;
+  font-family: Roboto Slab;
+  border-color: white;
+  background-color: black;
+  height: 70px;
+  width: 200px;
+  font-size: 24px;
+  transition: 0.1s background-color, color;
+  border-radius: 5px;
+  position: relative;
+  top: 450px;
+  left: -400px;
+}
+
+.save-button:hover{
+background-color: white;
+color: black;
+cursor: pointer;
+}
+
+.save-button:active{
+  background-color: rgb(136, 136, 136);
+}
+
+.destroyman-image{
+  position:fixed;
+  height: 200px;
+top: 730px;
+left: 830px;
+}
+
+.beneath-header{
+  color: white;
+  font-family: Roboto Slab;
+  position: fixed;
+  top: 200px;
+left: 450px;
+text-align: center;
+font-size: 24px;
+width: 1000px;
+}
